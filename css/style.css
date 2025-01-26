@@ -379,7 +379,13 @@
     }
 }
 /*** Navbar End ***/
+@media (max-width: 992px) {
+    .logo1{
+        display: none;
+    }
 
+
+}
 
 /*** Carousel Hero Header Start ***/
 .hero-section {
