@@ -72,8 +72,8 @@
 }
 
 .btn.btn-primary:hover {
-    background: var(--bs-dark);
-    color: var(--bs-white);
+    background: #ffde59;
+    color: var(--bs-dark);
 }
 
 .btn.btn-light {
@@ -457,6 +457,7 @@
 
 /*** Carousel Hero Header Start ***/
 .hero-section {
+    background-color:#38b6ff;
     background-image: url();
     background-repeat: no-repeat;
     background-position: center center;
@@ -474,7 +475,7 @@
 
 
 .hero-bg-half-2 {
-    background-image: url(../img/bg1.png);
+    background-image: url(../img/bg2.png);
     clip-path: polygon(37% 0%, 100% 0%, 100% 100%, 0% 100%);
     filter: grayscale(10%);
     transform: scale(100% - 50%);
@@ -493,7 +494,7 @@
         background-image: url(../img/exp2.png);
         background-color:;
         clip-path: polygon(37% 0%, 100% 0%, 100% 100%, 0% 100%);
-        
+        display: none;
         background-position: center right;
         background-repeat: no-repeat;
         background-size: cover;
@@ -510,7 +511,7 @@
 
 
 .hero-shape-2 {
-    background-color: var(--bs-dark);
+    background-color:#ffde59;
     width: 150px;
     height: 50%;
     position: absolute;
@@ -522,7 +523,7 @@
 }
 
 .hero-shape-2::after {
-    background-color: var(--bs-primary);
+    background-color: #0E121D;
     content: "";
     width: 75px;
     height: 80%;
@@ -650,7 +651,7 @@
     height: 500px;
     top: -200px;
     left: 0;
-    background: var(--bs-primary);
+    background:#ffde59;
     transform: rotate(45deg);
     z-index: 1;
 }
@@ -662,7 +663,7 @@
     height: 500px;
     bottom: -200px;
     right: 0;
-    background: var(--bs-primary);
+    background: #ffde59;
     transform: rotate(45deg);
     z-index: 1;
 }
