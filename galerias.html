@@ -62,10 +62,11 @@
                             <div class="col-lg-4 text-center text-lg-end">
                                 <div class="d-flex justify-content-end">
                                     <div class="d-flex border-end border-primary pe-3">
-                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
-                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
-                                        <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="btn p-0 text-primary me-3" href="https://web.facebook.com/profile.php?id=61566962728550" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        
+                                        <a class="btn p-0 text-primary me-3" href="https://www.youtube.com/@Ukamba%C3%81frica" target="_blank"><i class="fab fa-youtube" ></i></a>
+
+                                        <a class="btn p-0 text-primary me-0" href="https://ao.linkedin.com/company/ukamba-africa?trk=public_post_follow-view-profile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                     </div>
                                     <div class="dropdown ms-3">
                                         <a href="#" class="dropdown-toggle text-white" data-bs-toggle="dropdown"><small class="text-body"><i class="fas fa-globe-europe text-primary me-2"></i> Português</small></a>
@@ -101,7 +102,17 @@
                                             
                                         </div>
                                     </div>
-                                    <a href="galerias.html" class="nav-item nav-link">Galerias</a>
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                            <span class="dropdown-toggle">Galeria</span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a href="galerias.html" class="dropdown-item">Fotos</a>
+                                            <a href="galeria-videos.html" class="dropdown-item">Videos</a>
+                                            
+                                            
+                                        </div>
+                                    </div>
 
                                     <div class="nav-item dropdown">
                                         <a href="#" class="nav-link" data-bs-toggle="dropdown">
@@ -116,8 +127,13 @@
                                     </div>
                                     
                                     <div class="nav-btn ps-3">
+                                        <!-- Botão para Administrador -->
                                         <button class="btn-search btn btn-primary btn-md-square mt-2 mt-lg-0 mb-4 mb-lg-0 flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                                        <a href="#" class="btn btn-primary py-2 px-4 ms-0 ms-lg-3">Colaborar</a>
+                                        <!-- Botão para Admin -->
+                                        <button type="button" class="btn btn-primary py-2 px-4 ms-0 ms-lg-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                            Entrar Admin
+                                          </button>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -147,6 +163,61 @@
         </div>
         <!-- Modal Search End -->
 
+        <!-- Moda do Login Inicio -->
+
+  
+  <!-- Modal para Login-->
+  <div class="modal fade " style="background-color: rgba(9, 206, 255, 0.136);" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content mt-5">
+        <!-- cabbeçalho do moda-->
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Entrar</h1>
+          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- corpo do modal-->
+        <div class="modal-body ">
+            <form action="index.html" method="post">
+                <div class="d-flex flex-column align-items-center justify-content-center mb-4">
+                    <img src="img/logo/favicon.png" width="100px" height="100px" alt="">
+                    <h3 class="text-primary">UKamba</h3>
+                </div>
+                <!-- imput Email-->
+                <div class="row g-4">
+                    <div class="col-lg-12">
+                        <div class="form-floating">
+                            <input type="text" class="form-control border-1"  id="email" placeholder="Your Name">
+                            <label for="name">Email</label>
+                        </div>
+                    </div>
+                    
+                <!-- Imput Senha-->
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input type="text" class="form-control border-1 " id="senha" placeholder="Subject">
+                            <label for="subject">Senha</label>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-12">
+                       
+                        <input type="submit" class="btn btn-primary w-100 py-3" value="Entrar">
+                    </div>
+                </div>
+            </form>
+        
+        </div>
+        <div class="modal-footer">
+            <div class="d-flex align-items-center justify-content-center">
+                <a href="#" class="w-100">Esquceu a Senha?</a>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
         <!-- Header Start -->
         <div class="container-fluid bg-breadcrumb">
             <div class="container text-center py-5" style="max-width: 900px;">
@@ -164,7 +235,6 @@
         <div class="container-fluid blog py-5">
             <div class="container py-5">
                 <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Memórias</h4>
                     <h1 class="display-4 mb-4">A Ukamba faz-se de momentos</h1>
                     <p class="mb-0">Veja alguns dos momentos que marcam o nosso percurso rumo ao desenvolvimento e crescimento do nosso país!
                     </p>
