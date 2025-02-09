@@ -90,14 +90,15 @@
                             </button>
                             <div class="collapse navbar-collapse" id="navbarCollapse">
                                 <div class="navbar-nav mx-0 mx-lg-auto bg-white">
-                                    <a href="index.html" class="nav-item nav-link active">Painel</a>
+                                    <a href="admin.html" class="nav-item nav-link active">Inicio</a>
                                     <div class="nav-item dropdown">
                                         <a href="#" class="nav-link" data-bs-toggle="dropdown">
                                             <span class="dropdown-toggle">Sobre a Ukamba</span>
                                         </a>
                                         <div class="dropdown-menu">
-                                            <a href="#" class="dropdown-item">Adicionar Projectos</a>
-                                            <a href="#" class="dropdown-item">Editar o perfil Ukamba</a>
+                                            <a href="project.html" class="dropdown-item">Adicionar Projectos</a>
+                                            <a href="about.html" class="dropdown-item">Equipa</a>
+                                            <a href="team.html" class="dropdown-item">Editar o perfil Ukamba</a>
                                             
                                         </div>
                                     </div>
@@ -113,7 +114,16 @@
                                         </div>
                                     </div>
 
-                                
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                            <span class="dropdown-toggle">Publicar</span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a href="#" class="dropdown-item">Cadastrar</a>
+                                            <a href="#" class="dropdown-item">Administrador</a>
+                                            
+                                        </div>
+                                    </div>
                                     
                                     <div class="nav-btn ps-3">
                                         
@@ -141,86 +151,55 @@
         <!-- Navbar & Hero End -->
 
 
-   <!-- Header Start -->
-   <div class="container-fluid bg-breadcrumb p-0">
-    <div class="container d-flex align-items-center justify-content-between " >
-        <div class="p-2 p-md-5 rounded text-body-emphasis">
-            <div class="col-lg-12 px-0">
-              <h3 class="fst-italic text-primary">Nome do utilizador</h3>
-              <p class="lead my-1">Cargo do Utilizador</p>
-              <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">irineumanuelvilda@gmail.com</a></p>
+
+
+
+
+<div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
+    <div class="modal-dialog" role="modal">
+      <div class="modal-content rounded-4 shadow">
+        <div class="modal-header p-5 pb-4 border-bottom-0">
+          <h1 class="fw-bold mb-0 fs-2">Cadastrar Administrador</h1>
+         
+        </div>
+  
+        <div class="modal-body p-5 pt-0">
+          <form class="">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Nome</label>
             </div>
-          </div>
-        <div>
-            <div>
-                <img class="border-0" src="../img/avatar.jpg" alt="">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Email</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Senha</label>
             </div>
 
-        </div>   
-    </div>
-</div>
-
-
-
-
-
-<div class="container px-4 py-5">
-    <h2 class="pb-2 border-bottom">Dados do site Ukamba</h2>
-
-    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
-      <div class="col d-flex flex-column align-items-start gap-2">
-        <h2 class="fw-bold text-body-emphasis">Apresentação detalhada dos dados do site</h2>
-        <p class="text-body-secondary">Aqui são aprsentados todos os dados e detalhes do site ukamba</p>
-        <a href="cadastroadmi.html" class="btn btn-primary btn-lg">Cadastrar Adm</a>
-      </div>
-
-      <div class="col">
-        <div class="row row-cols-1 row-cols-sm-2 g-4">
-          <div class="col d-flex flex-column gap-2">
-            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#collection" />
-              </svg>
+            <!-- Botão de entrar -->
+            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Entrar</button>
+            <small class="text-body-secondary">Cadastro apenas para Administrador</small>
+            <hr class="my-4">
+            
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <h2 class="fs-5 fw-bold mb-3 text-center text-primary">Ukamba</h2>
+                <img src="../img/logo/favicon.png" width="50px" height="50px" alt="">
             </div>
-            <h4 class="fw-semibold mb-0 text-body-emphasis">Notícias</h4>
-            <p class="text-body-secondary">Já foram publicadas mas 20 Notícias</p>
-          </div>
-
-          <div class="col d-flex flex-column gap-2">
-            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#gear-fill" />
-              </svg>
-            </div>
-            <h4 class="fw-semibold mb-0 text-body-emphasis">Imagens</h4>
-            <p class="text-body-secondary">Já foram carregados mais <span>30</span> imagens no site</p>
-          </div>
-
-          <div class="col d-flex flex-column gap-2">
-            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#speedometer" />
-              </svg>
-            </div>
-            <h4 class="fw-semibold mb-0 text-body-emphasis">Número de Vitantes</h4>
-            <p class="text-body-secondary">Em média o site é visto por mais de <span>20</span> utilizadores por dia</p>
-          </div>
-
-          <div class="col d-flex flex-column gap-2">
-            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#table" />
-              </svg>
-            </div>
-            <h4 class="fw-semibold mb-0 text-body-emphasis">Projectos publicados</h4>
-            <p class="text-body-secondary">Actuamente temos mais de <span>5</span> projectos P+ublicados</p>
-          </div>
+            
+            
+            
+          </form>
         </div>
       </div>
     </div>
   </div>
 
+
+<!-- Header End -->  
  
+
 
 
 <!-- Copyright Start -->
@@ -237,29 +216,6 @@
     </div>
 </div>
 <!-- Copyright fim -->
-
-
-  
-
-
-
-
-
-<!-- JavaScript Libraries -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="lib/wow/wow.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/waypoints/waypoints.min.js"></script>
-<script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-<script src="css/glightbox/js/glightbox.min.js"></script>
-
-
-<!-- Template Javascript -->
-<script src="js/main.js"></script>
-
-<!-- Header End -->     
 
         
 
