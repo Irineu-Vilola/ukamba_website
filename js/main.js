@@ -118,19 +118,3 @@
 
 })(jQuery);
 
-
- /**
-   * Initiate glightbox 
-   */
- const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
-
-
-  /**
-   * Initiate gallery lightbox 
-   */
-  const galleryLightbox = GLightbox({
-    selector: '.gallery-lightbox'
-  });
-
