@@ -1,150 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
-<head>
-    <meta charset="utf-8">
-    <title>Ukamba</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <head>
+        <meta charset="utf-8">
+        <title>Ukamba</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Edu+TAS+Beginner:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-    <!-- Icon Font Stylesheet -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- Libraries Stylesheet -->
-    <link rel="stylesheet" href="lib/animate/animate.min.css"/>
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/glightbox/css/glightbox.min.css">
 
+        <!-- Link para o favicon -->
+         <link rel="shortcut icon" href="img/logo/favicon.png" type="image/x-icon">
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <body>
 
-<body>
+        
 
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Carregando</span>
-        </div>
-    </div>
-    <!-- Spinner End -->
+        
 
-    
-
-    <!-- Navbar & Hero Start -->
-    <div class="container-fluid header-top">
-        <div class="container d-flex align-items-center">
-            <div class="d-flex align-items-center h-100">
-                <a href="#" class="navbar-brand" style="height: 125px;">
-                    <h1 class="text-primary mb-0"> Ukamba</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
-                </a>
-            </div>
-            <div class="w-100 h-100">
-                <div class="topbar px-0 py-2 d-none d-lg-block" style="height: 45px;">
-                    <div class="row gx-0 align-items-center">
-                        <div class="col-lg-8 text-center text-lg-center mb-lg-0">
-                            <div class="d-flex flex-wrap">
-                                <div class="border-end border-primary pe-3">
-                                    <a href="#" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i>Encontra a Localização</a>
-                                </div>
-                                <div class="ps-3">
-                                    <a href="mailto:example@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>Email da Ukamba</a>
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid header-top">
+            <div class="container d-flex align-items-center">
+                <div class="d-flex align-items-center h-100">
+                    <a href="#" class="navbar-brand d-flex align-items-center " style="height: 125px;">
+                        <h1 class="text-primary mb-0 logo1"> Ukamba</h1>
+                        <img class="logo1" src="img/logo/logo2.png" alt="Logo" width="40px" height="40px"> 
+                    </a>
+                </div>
+                <div class="w-100 h-100">
+                    <div class="topbar px-0 py-2 d-none d-lg-block" style="height: 45px;">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-lg-8 text-center text-lg-center mb-lg-0">
+                                <div class="d-flex flex-wrap">
+                                    <div class="border-end border-primary pe-3">
+                                        <a href="#" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i>Rua Sinetol, Ndalatando</a>
+                                    </div>
+                                    <div class="ps-3">
+                                        <a href="mailto:example@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>Email da Ukamba</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 text-center text-lg-end">
-                            <div class="d-flex justify-content-end">
-                                <div class="d-flex border-end border-primary pe-3">
-                                    <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
-                                    <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                                <div class="dropdown ms-3">
-                                    <a href="#" class="dropdown-toggle text-white" data-bs-toggle="dropdown"><small class="text-body"><i class="fas fa-globe-europe text-primary me-2"></i> Português</small></a>
-                                    <div class="dropdown-menu">
-                                        <a href="#" class="dropdown-item">English</a>
-                                        <a href="#" class="dropdown-item">French</a>
+                            <div class="col-lg-4 text-center text-lg-end">
+                                <div class="d-flex justify-content-end">
+                                    <div class="d-flex border-end border-primary pe-3">
+                                        <a class="btn p-0 text-primary me-3" href="https://web.facebook.com/profile.php?id=61566962728550" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        
+                                        <a class="btn p-0 text-primary me-3" href="https://www.youtube.com/@Ukamba%C3%81frica" target="_blank"><i class="fab fa-youtube" ></i></a>
+
+                                        <a class="btn p-0 text-primary me-0" href="https://ao.linkedin.com/company/ukamba-africa?trk=public_post_follow-view-profile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                    <div class="dropdown ms-3">
+                                        <a href="#" class="dropdown-toggle text-white" data-bs-toggle="dropdown"><small class="text-body"><i class="fas fa-globe-europe text-primary me-2"></i> Português</small></a>
+                                        <div class="dropdown-menu">
+                                            <a href="#" class="dropdown-item">English</a>
+                                            <a href="#" class="dropdown-item">French</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="nav-bar px-0 py-lg-0" style="height: 80px;">
-                    <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-lg-end">
-                        <a href="#" class="navbar-brand-2">
-                            <h1 class="text-primary mb-0"><i class="fas fa-bolt"></i> Ukamba</h1>
-                            <!-- <img src="img/logo.png" alt="Logo"> -->
-                        </a>  
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                            <span class="fa fa-bars"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarCollapse">
-                            <div class="navbar-nav mx-0 mx-lg-auto bg-white">
-                                <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                                <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link" data-bs-toggle="dropdown">
-                                        <span class="dropdown-toggle">Sobre a Ukamba</span>
-                                    </a>
-                                    <div class="dropdown-menu">
-                                        <a href="project.html" class="dropdown-item">Projectos Sociais</a>
-                                        <a href="about.html" class="dropdown-item">Perfil Institucional</a>
-                                        <a href="team.html" class="dropdown-item">Estrutura</a>
-                                        
+                    <div class="nav-bar px-0 py-lg-0" style="height: 80px;">
+                        <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-lg-end">
+                            <a href="#" class="navbar-brand-2">
+                                <h1 class=" text-primary mb-0 "> Ukamba</h1>
+                                <img class="" src="img/logo/logo2.png" alt="Logo" width="30px" height="30px"> 
+                            </a>  
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                                <span class="bi bi-menu-button"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <div class="navbar-nav mx-0 mx-lg-auto bg-white">
+                                    <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                            <span class="dropdown-toggle">Sobre a Ukamba</span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a href="project.html" class="dropdown-item">Projectos Sociais</a>
+                                            <a href="about.html" class="dropdown-item">Perfil Institucional</a>
+                                            <a href="team.html" class="dropdown-item">Estrutura</a>
+                                            
+                                        </div>
                                     </div>
-                                </div>
-                               
-                                <a href="service.html" class="nav-item nav-link">Serviços</a>
-                                <a href="galerias.html" class="nav-item nav-link">Galerias</a>
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                            <span class="dropdown-toggle">Galeria</span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a href="galerias.html" class="dropdown-item">Fotos</a>
+                                            <a href="galeria-videos.html" class="dropdown-item">Videos</a>
+                                            
+                                            
+                                        </div>
+                                    </div>
 
-                                <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link" data-bs-toggle="dropdown">
-                                        <span class="dropdown-toggle">Comunicados</span>
-                                    </a>
-                                    <div class="dropdown-menu">
-                                        <a href="#" class="dropdown-item">Nóticias</a>
-                                        <a href="404.html" class="dropdown-item">Comunicado de Imprensa</a>
-                                        <a href="404.html" class="dropdown-item">Aquisições</a>
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                            <span class="dropdown-toggle">Comunicados</span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a href="noticias.html" class="dropdown-item">Nóticias</a>
+                                            <a href="404.html" class="dropdown-item">Comunicado de Imprensa</a>
+                                            <a href="404.html" class="dropdown-item">Aquisições</a>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="nav-btn ps-3">
+                                        <!-- Botão para Administrador -->
+                                        <button class="btn-search btn btn-primary btn-md-square mt-2 mt-lg-0 mb-4 mb-lg-0 flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                                        <!-- Botão para Admin -->
+                                        <button type="button" class="btn btn-primary py-2 px-4 ms-0 ms-lg-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                            Entrar Admin
+                                          </button>
                                         
                                     </div>
-                                </div>
-                                
-                                <div class="nav-btn ps-3">
-                                    <button class="btn-search btn btn-primary btn-md-square mt-2 mt-lg-0 mb-4 mb-lg-0 flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                                    <a href="#" class="btn btn-primary py-2 px-4 ms-0 ms-lg-3">Colaborar</a>
                                 </div>
                             </div>
-                        </div>
-                    </nav>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Navbar & Hero End -->
+        <!-- Navbar & Hero End -->
 
         <!-- Modal Search Start -->
         <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content rounded-0">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Pesquisar</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body d-flex align-items-center bg-primary">
                         <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <input type="search" class="form-control p-3" placeholder="Palavras Chave" aria-describedby="search-icon-1">
                             <span id="search-icon-1" class="btn bg-light border nput-group-text p-3"><i class="fa fa-search"></i></span>
                         </div>
                     </div>
@@ -153,6 +163,60 @@
         </div>
         <!-- Modal Search End -->
 
+        <!-- Moda do Login Inicio -->
+
+  
+  <!-- Modal para Login-->
+  <div class="modal fade " style="background-color: rgba(9, 206, 255, 0.136);" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content mt-5">
+        <!-- cabbeçalho do moda-->
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Entrar</h1>
+          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- corpo do modal-->
+        <div class="modal-body ">
+            <form action="index.html" method="post">
+                <div class="d-flex flex-column align-items-center justify-content-center mb-4">
+                    <img src="img/logo/favicon.png" width="100px" height="100px" alt="">
+                    <h3 class="text-primary">UKamba</h3>
+                </div>
+                <!-- imput Email-->
+                <div class="row g-4">
+                    <div class="col-lg-12">
+                        <div class="form-floating">
+                            <input type="text" class="form-control border-1"  id="email" placeholder="Your Name">
+                            <label for="name">Email</label>
+                        </div>
+                    </div>
+                    
+                <!-- Imput Senha-->
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input type="text" class="form-control border-1 " id="senha" placeholder="Subject">
+                            <label for="subject">Senha</label>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-12">
+                       
+                        <input type="submit" class="btn btn-primary w-100 py-3" value="Entrar">
+                    </div>
+                </div>
+            </form>
+        
+        </div>
+        <div class="modal-footer">
+            <div class="d-flex align-items-center justify-content-center">
+                <a href="#" class="w-100">Esquceu a Senha?</a>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
 
         <!-- Header Start -->
         <div class="container-fluid bg-breadcrumb">
