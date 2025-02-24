@@ -925,8 +925,7 @@
 
 /*** Team Start ***/
 .team .team-item .team-img {
-    position: relative;
-    overflow: hidden;
+    
 }
 
 .team .team-item .team-img img {
@@ -965,6 +964,7 @@
 }
 
 .team .team-item .team-content {
+    background-color: #ffde59;
     transition: 0.5s;
 }
 
