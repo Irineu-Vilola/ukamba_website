@@ -1,24 +1,16 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
 /*** Spinner Start ***/
 *{
+   
+    font-weight: 400;
+    font-style: normal;
     
-
-    font-family: "Zilla Slab", serif;
-    
-  }
-
-
-
-    
+  }   
 #spinner {
     opacity: 0;
     visibility: hidden;
     transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
 }
-
 #spinner.show {
     transition: opacity .5s ease-out, visibility 0s linear 0s;
     visibility: visible;
@@ -33,10 +25,9 @@
     transition: 0.5s;
     z-index: 99;
 }
-
-
 /*** Button Start ***/
 .btn {
+    font-family: "Monomakh", serif !important;
     font-weight: 600;
     transition: .5s;
 }
@@ -170,7 +161,7 @@
 .header-top .topbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
-    font-family: "Font Awesome 5 Free";
+    font-family: "Monomakh", serif !important;
     font-weight: 600;
     vertical-align: middle;
     margin-left: 8px;
@@ -501,12 +492,6 @@
     }
     
 }
-
-
-
-
-
-
 .hero-bg-half-2 {
     background-image: url(../img/bg2.png);
     clip-path: polygon(37% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -538,11 +523,6 @@
         top: 0;
     }
 }
-
-
-
-
-
 .hero-shape-2 {
     background-color:#ffde59;
     width: 150px;
@@ -880,7 +860,6 @@
 /*** Blog Start ***/
 .blog .blog-item {
     height: ;
-    
     background: var(--bs-light);
 }
 
