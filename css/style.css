@@ -1,10 +1,4 @@
-/*** Spinner Start ***/
-*{
-   
-    font-weight: 400;
-    font-style: normal;
-    
-  }   
+  
 #spinner {
     opacity: 0;
     visibility: hidden;
